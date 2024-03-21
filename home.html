@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <h1> Zodiac Selector </h1>
+        <input type="date" id="dateInput">
+        <button onclick="getZodiac()">Submit</button>
+        <p id="zodiacOutput"></p>
+    </div>
+    <div class="image-grid">
+        <img src="img/aries.svg" alt="Aries" onclick="showZodiac('Aries')"> 
+        <img src="img/taurus.svg" alt="Taurus" onclick="showZodiac('Taurus')">
+        <img src="img/gemini.svg" alt="Gemini" onclick="showZodiac('Gemini')">
+        <img src="img/cancer.svg" alt="Cancer" onclick="showZodiac('Cancer')">
+        <img src="img/leo.svg" alt="Leo" onclick="showZodiac('Leo')">
+        <img src="img/virgo.svg" alt="Virgo" onclick="showZodiac('Virgo')">
+        <img src="img/libra.svg" alt="Libra" onclick="showZodiac('Libra')">
+        <img src="img/scorpio.svg" alt="Scorpio" onclick="showZodiac('Scorpio')">
+        <img src="img/sagittarius.svg" alt="sagittarius" onclick="showZodiac('Sagittarius')">
+        <img src="img/capricorn.svg" alt="Capricorn" onclick="showZodiac('Capricorn')">
+        <img src="img/aquarius.svg" alt="Aquarius" onclick="showZodiac('Aquarius')">
+        <img src="img/pisces.svg" alt="Pisces" onclick="showZodiac('Pisces')">
+    </div>
+    
+    <audio id="capricornAudio" src="audio/capricorn.mp3"></audio>
+    <audio id="piscesAudio" src="audio/pisces.mp3"></audio>
+    <audio id="leoAudio" src="audio/leo.mp3"></audio>
+    <audio id="taurusAudio" src="audio/taurus.mp3"></audio>
+    <audio id="cancerAudio" src="audio/cancer.mp3"></audio>
+    <audio id="sagittariusAudio" src="audio/sagittarius.mp3"></audio>
+    <audio id="aquariusAudio" src="audio/aquarius.mp3"></audio>
+    <audio id="virgoAudio" src="audio/Virgo.mp3"></audio>
+    <audio id="libraAudio" src="audio/libra.mp3"></audio>
+    <audio id="geminiAudio" src="audio/gemini.mp3"></audio>
+    <audio id="scorpioAudio" src="audio/scorpio.mp3"></audio>
+    <audio id="ariesAudio" src="audio/aries.mp3"></audio>
+
+    <div class="help-button">
+        <a href="help.html" target="_blank">Help</a>
+    </div>
+
+
+
+
+    <script src="js/zodiac.js"></script>
+</body>
+</html>
